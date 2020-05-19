@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundapply"
+    tools:context=".ApplyActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/user"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="আপনার নাম লিখুন"
+                android:textColor="@color/colorPink"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:layout_margin="25dp"
+                >
+
+            </TextView>
+            <EditText
+                android:id="@+id/userName"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/user"
+                android:hint="Example: asif Ahmed"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:textColorHint="#C0C0C0"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                >
+
+            </EditText>
+
+
+            <TextView
+                android:id="@+id/contact"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="মোবাইল নাম্বার"
+                android:textColor="@color/colorPink"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_below="@+id/userName"
+                >
+
+            </TextView>
+            <EditText
+                android:id="@+id/contactNumber"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/contact"
+                android:hint="Example: 018 XXX XXXXX"
+                android:inputType="number"
+                android:textColorHint="#C0C0C0"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                >
+
+            </EditText>
+
+            <TextView
+                android:id="@+id/service"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="কি ধরনের সেবা নিতে চাচ্ছেন ?"
+                android:textColor="@color/colorPink"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_below="@+id/contactNumber"
+                >
+
+            </TextView>
+            <Spinner
+                android:id="@+id/serviceName"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/service"
+                android:entries="@array/service_groups"
+
+                android:textColor="@android:color/white"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+
+                >
+
+            </Spinner>
+            <Button
+                android:id="@+id/submit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="জমা দিন"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:layout_margin="25dp"
+                android:layout_below="@+id/serviceName"
+                android:layout_centerHorizontal="true"
+                >
+
+            </Button>
+
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+
+
+
+
+</RelativeLayout>

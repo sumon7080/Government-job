@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "340139845665",
+    "firebase_url": "https://job-circular-and-apply-52344.firebaseio.com",
+    "project_id": "job-circular-and-apply-52344",
+    "storage_bucket": "job-circular-and-apply-52344.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:340139845665:android:0b92d6cefc48803bdf1b60",
+        "android_client_info": {
+          "package_name": "islam.somon.governmentjobcircularandaplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "340139845665-ssu4gs9j5q97cao55v43d6bbnogsi4ev.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQxiOM7y6q_0hbk0bv15edKk0lcC3ij9w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "340139845665-ssu4gs9j5q97cao55v43d6bbnogsi4ev.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

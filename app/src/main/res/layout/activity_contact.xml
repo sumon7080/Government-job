@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".ContactActivity">
+
+
+    <TextView
+        android:id="@+id/contactPage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact Us Details"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+
+        android:layout_centerHorizontal="true"
+        android:textSize="40dp"
+        />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Imo/ WhatsApp / Viber number:"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="50dp"
+        android:textSize="20dp"
+       />
+   <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="01879599465"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="20dp"
+       android:layout_marginLeft="50dp"
+       android:layout_marginTop="5dp"
+        android:layout_below="@+id/tv1"
+        >
+    </TextView>
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email ID"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:layout_below="@+id/tv2"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="isumon640@gmail.com"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/tv3"
+        >
+    </TextView>
+
+    <TextView
+        android:id="@+id/tv5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wechat ID"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:layout_below="@+id/tv4"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:id="@+id/tv6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="isumon640"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/tv5"
+        >
+    </TextView>
+
+    <TextView
+        android:id="@+id/tv7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Skype ID"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:layout_below="@+id/tv6"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:id="@+id/tv8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="live:c6158a7ff8a62fa0"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/tv7"
+        >
+    </TextView>
+
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Government Job Circular and Aplication</string>
+
+    <array name="service_groups">
+
+        <item>সেবার ধরন নির্বাচন করুন</item>
+
+        <item>অনলাইনে চাকুরীর আবেদন</item>
+        <item>অনলাইনে ভোটার আই ডি কার্ড</item>
+        <item>অনলাইনে পাসপোর্টের জন্যে আবেদন</item>
+        <item>TIN সার্টিফিকেটের জন্যে আবেদন</item>
+
+
+    </array>
+
+</resources>
